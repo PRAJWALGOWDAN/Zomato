@@ -13,4 +13,4 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -d --name zomato -p 3000:3000 santhoshky/zomatoapp:1.0      #dockerhub---->create repository--->repo name(zomatoapp)--->click on Create----->Copy and paste the repo name on the left side instead of santhoshky/zomatoapp
+    command: docker run -d --name zomato -p 3000:3000 prajwal383/zomatoapp:1.0      #dockerhub---->create repository--->repo name(zomatoapp)--->click on Create----->Copy and paste the repo name on the left side instead of santhoshky/zomatoapp
