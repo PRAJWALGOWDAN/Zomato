@@ -9,13 +9,13 @@ pipeline {
         
         stage ("Git Checkout") {
             steps {
-                git 'https://github.com/PRAJWALGOWDAN/Zomato.git'          #Replace with your github url
+                git 'https://github.com/PRAJWALGOWDAN/Zomato.git'          
             }
         }
         
         stage ("Build Docker Image") {
             steps {
-                sh "docker build -t prajwal383/zomatoapp:1.0 ."               # change with your docker repo name 
+                sh "docker build -t prajwal383/zomatoapp:1.0 ."               
             }
         }
        /* stage ("Tag & Push to DockerHub") {
